@@ -1,0 +1,24 @@
+Association:
+    Association/Associations.txt
+
+Independent:
+    AAPL
+    /ada/file.txt
+
+Dependent:
+    NEWTICK
+    Excel/NAS_AMZN_CashFlowModel_20250207.xlsm
+    AAPL
+    Excel/NYS_VZ_CashFlowModel_20250219COPY.xlsm
+
+date= 2022 - 2028
+regression = Linear
+summary = true
+
+listall = False
+
+sort = year
+
+sorttype = BackAlpha
+
+graph = scatter
