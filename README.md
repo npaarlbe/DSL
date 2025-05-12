@@ -1,4 +1,4 @@
-# Welcome to the MorningStar Wiki!
+# Welcome to the MorningStar ReadMe!
 
 This project automates the extraction of key metrics from Excel financial data using a custom domain-specific language (DSL). Below are screenshots and visualizations from parsing, regression, and error handling.
 
