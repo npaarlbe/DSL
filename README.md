@@ -367,12 +367,13 @@ graph = scatter
 Using this DSL is way easier and faster than doing the same thing with a general-purpose language like Java or Python, or by hand in Excel. With the DSL, a financial user like an analyst or banker can just write a short input file that tells the system what data to pull, what years to include, and how to sort or graph it. That’s it. If you were doing this in Java, you’d have to write a full program that handles file input, filtering, sorting, matching keywords, and generating graphs — which would take a lot more time and technical knowledge. And doing it manually in Excel would mean opening every file, searching for the right keywords, checking column headers for the right years, copying things out, and building graphs one by one. When you're dealing with many big Excel models, that could take hours just to find and organize the right data. The DSL makes all of that automatic and scalable, so the user only has to focus on what they want to see, and not how to get it.
 
 ---
+
 ## Clearly indicate which group member is responsible for each portion of the project.
 | Person           | Role                                                                 |
 |---------------------|----------------------------------------------------------------------|
-| **Nate Paarlberg**  | For this project, I mostly worked on the ExcelKeywordExtractor file. I focused on using Apache POI to go through a database of Excel files and pull out the specific associations and years we needed. I encorporate Echarts github, to create charts, and used pupiteer to add the charts to the output excel file. I focussed on using the variables and data from the input text file that was parsed, and using those to do everything we needed to do to find the correct information.  |
-| **Caleb Hodel**| |
-| **Together**| |
+| **Nate Paarlberg**  | For this project, I mostly worked on the ExcelKeywordExtractor file. I focused on using Apache POI to go through a database of Excel files and pull out the specific associations and years we needed. I incorporated ECharts from GitHub to create charts, and used Puppeteer to add the charts to the output Excel file. I focused on using the variables and data from the input text file that was parsed, and used those to do everything we needed to do to find the correct information. We both worked on our grammar together that would satisfy what our DSL needed to work properly. |
+| **Caleb Hodel**| I worked on the grammar and the Java listener side. I helped design the structure of the DSL, built out the logic to handle the parsing, and connected that output to the rest of the system. I helped test the DSL input and association files, and worked on making sure the data flow from the DSL into the charts and Excel worked. We both worked together on the grammar and testing the full process.|
+
 ---
 ## Contributions
 Created by Caleb Hodel and Nate Paarlberg | COS 382 Final Project 
